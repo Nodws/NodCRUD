@@ -22,7 +22,7 @@ Use the following code to select * rows from the databse using this class
 ```php
 <?php
 include('config.php');
-$db->select('members'); // Table name
+$db->select('blog'); // Table name
 $res = $db->getResult();
 print_r($res);
 ```
